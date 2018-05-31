@@ -1,0 +1,83 @@
+/* Name: Gia Anastasia 
+*  Date: 5/31/18
+*  Lab: C13 Fixed Layout Exercise */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 100%;
+	background-color: white;
+	margin: 15px auto;
+	border: 1px solid black;
+	font-size: 1em;
+}
+
+header {
+	border-bottom: 2px solid #ef9c00;
+}
+
+
+/* Image Styles*/
+
+.image1 {
+	height: 11.25em;
+	width: 10.625em;
+	border: 1px solid black;
+}
+
+.Image2 {
+	height: 10.625em;
+	width: 10em;
+	border: 1px solid black;
+}
+
+.image3 {
+	height: 6.25em;
+	width: 18.75em;
+	float: right;
+	border: 1px solid black;
+}
+/* 3 column styles*/
+#sidebarA {
+	width: 24%;
+	float: left;
+	border-right: 2px solid #ef9c00;
+	padding: 10px;
+	text-align: center;
+}
+
+main {
+	width: 45%;
+	float: left;
+	padding: 10px;
+}
+
+#sidebarB {
+	width: 24%;
+	float: right;
+	border-left: 2px solid #ef9c00;
+	padding: 10px 10px 10px 25px;
+	text-align: center;
+}
+
+ul {
+	text-align: left;
+}
+
+#sidebarA,
+#sidebarB,
+main {
+	height: 600px;
+}
+/*footer styles*/
+footer {
+	clear: both;
+	border-top: 2px solid #ef9c00;
+	padding: 10px;
+}
+#disclaimer{
+	float: right; 
+}
